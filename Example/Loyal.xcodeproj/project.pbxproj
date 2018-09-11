@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03E4CE9DE294AF2D3EE3F076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		03E4CE9DE294AF2D3EE3F076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		38F51406602E102ED801B853 /* Pods_Loyal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loyal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E722155212596D70338CCF3 /* Pods-Loyal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loyal_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Loyal_Example/Pods-Loyal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4B6C22DECA2CBCE1965E938B /* Pods-Loyal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loyal_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loyal_Tests/Pods-Loyal_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		87FC8CA7B92395D77CD823E8 /* Pods_Loyal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Loyal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE28954128C53E4644BE55A1 /* Loyal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Loyal.podspec; path = ../Loyal.podspec; sourceTree = "<group>"; };
-		CFBC8002055AF93C42BB146C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CE28954128C53E4644BE55A1 /* Loyal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Loyal.podspec; path = ../Loyal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFBC8002055AF93C42BB146C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F93639B69AA37D595587A31E /* Pods-Loyal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Loyal_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Loyal_Example/Pods-Loyal_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

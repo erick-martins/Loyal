@@ -1,0 +1,16 @@
+PODS:
+  - Loyal (0.1.0)
+
+DEPENDENCIES:
+  - Loyal (from `../`)
+
+EXTERNAL SOURCES:
+  Loyal:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Loyal: 449daf7811d5022664df3c072143b390120260b1
+
+PODFILE CHECKSUM: ef4c849613e35b5dee20558f08e8233f0d8b3632
+
+COCOAPODS: 1.5.3

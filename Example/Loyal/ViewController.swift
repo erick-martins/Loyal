@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import Loyal
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let icon = Icon()
+        self.view.addSubview(icon)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

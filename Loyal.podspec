@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Loyal'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Loyal.'
-
+  s.version          = '0.1.1'
+  s.summary          = 'Loyal is a design system for iOS.'
+  # s.swift_version    = '>= 3.2, <= 4.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Loyal is a design system for iOS created by LTM.
                        DESC
 
-  s.homepage         = 'https://github.com/ericknmp@gmail.com/Loyal'
+  s.homepage         = 'https://github.com/erick-martins/Loyal'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ericknmp@gmail.com' => 'ericknmp@gmail.com' }
-  s.source           = { :git => 'https://github.com/ericknmp@gmail.com/Loyal.git', :tag => s.version.to_s }
+  s.author           = { 'Erick Martins' => 'ericknmp@gmail.com' }
+  s.source           = { :git => 'https://github.com/erick-martins/Loyal.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Loyal/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Loyal' => ['Loyal/Assets/*.png']
-  # }
+  s.resource_bundles = {
+      'Loyal' => ['Loyal/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

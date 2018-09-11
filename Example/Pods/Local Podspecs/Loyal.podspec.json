@@ -1,0 +1,31 @@
+{
+  "name": "Loyal",
+  "version": "0.1.0",
+  "summary": "Loyal is a design system for iOS.",
+  "description": "Loyal is a design system for iOS created by LTM.",
+  "homepage": "https://github.com/erick-martins/Loyal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Erick Martins": "ericknmp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/erick-martins/Loyal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Loyal/Classes/**/*",
+  "resource_bundles": {
+    "Loyal": [
+      "Loyal/Assets/*.png"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}
