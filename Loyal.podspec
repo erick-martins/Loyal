@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Loyal/Classes/**/*'
+  s.source_files = 'Loyal/Classes/*.swift'
   
   s.resource_bundles = {
       'Loyal' => ['Loyal/Assets/*.png']
