@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Loyal_Example' do
+  pod 'Loyal', :path => '../'
+
+  target 'Loyal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
